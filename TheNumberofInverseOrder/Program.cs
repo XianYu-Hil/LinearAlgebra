@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace TheNumberofInverseOrder
 {
@@ -9,18 +10,15 @@ namespace TheNumberofInverseOrder
         {
             Console.WriteLine("默认的标准次序为1 2 3 4 ... n");
             Console.WriteLine("请输入你的排列,以计算其逆序数:");
-            var numStrings = Console.ReadLine().Split(" ");
-            List<int> numInts = new List<int>();
-            foreach (var numString in numStrings)
-            {
-                numInts.Add(int.Parse(numString));
-            }
+            var numStrings = Console.ReadLine()?.Split(" ");
+            List<int> numInts = numStrings.Select(int.Parse).ToList();
 
-            Console.WriteLine("其逆序数为:" + Calc.FromStart(numInts));
+            Console.WriteLine("FromStart其逆序数为:" + InverseOrder.FromStart(numInts));
+            Console.WriteLine("FromEnd其逆序数为:" + InverseOrder.FromEnd(numInts)); 
         }
     }
 
-    static class Calc
+    static public class InverseOrder
     {
         public static int FromStart(List<int> nums)
         {

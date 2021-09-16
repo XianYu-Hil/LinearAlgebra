@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheNumberofInverseOrder", "TheNumberofInverseOrder\TheNumberofInverseOrder.csproj", "{8EB77B18-CBEA-427D-9336-4CCA984C09F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutation", "Permutation\Permutation.csproj", "{3B574D7F-26C2-472D-8B0F-FE2C0AC9DB3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatrixSolutions", "MatrixSolutions\MatrixSolutions.csproj", "{1DB29858-5012-44B1-8F51-53B078B798C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{8EB77B18-CBEA-427D-9336-4CCA984C09F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EB77B18-CBEA-427D-9336-4CCA984C09F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EB77B18-CBEA-427D-9336-4CCA984C09F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B574D7F-26C2-472D-8B0F-FE2C0AC9DB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B574D7F-26C2-472D-8B0F-FE2C0AC9DB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B574D7F-26C2-472D-8B0F-FE2C0AC9DB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B574D7F-26C2-472D-8B0F-FE2C0AC9DB3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DB29858-5012-44B1-8F51-53B078B798C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DB29858-5012-44B1-8F51-53B078B798C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DB29858-5012-44B1-8F51-53B078B798C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DB29858-5012-44B1-8F51-53B078B798C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
